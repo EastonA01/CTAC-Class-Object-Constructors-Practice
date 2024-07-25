@@ -16,7 +16,7 @@ public class Main {
             maryAccount.getBalance();
         // Product method
             Product gasoline = new Product("Gasoline", 4.0, 10);
-            gasoline.printProduct(gasoline);
-            gasoline.totalCost(gasoline);
+            gasoline.printProduct();
+            gasoline.totalCost();
     }
 }

@@ -12,12 +12,12 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public void totalCost(Product product){
-        double total = product.price * product.quantity;
+    public void totalCost(){
+        double total = this.price * this.quantity;
         System.out.println("Total cost is " + total);
     }
 
-    public void printProduct(Product product){
-        System.out.println(product.name + " costs " + product.price + " and " + product.quantity + " units were purchased.");
+    public void printProduct(){
+        System.out.println(this.name + " costs " + this.price + " and " + this.quantity + " units were purchased.");
     }
 }
